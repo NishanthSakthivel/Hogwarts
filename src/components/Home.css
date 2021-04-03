@@ -1,21 +1,43 @@
 .home-container img{
     width: 100%;
+    position: relative;
+    text-align: center;
+    
+
     
 }
 .navbar{
-    display: flex;
-    border: 2px solid cyan;
+    position: absolute;
+    top: 8px;
+    
 }
-.nav-items{
+.nav-items {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .nav-items li{
-    display: block;
-    float: left;
-    list-style-type: none;
-    padding: 14px 16px;
+padding: 14px 16px;
     
 }
+
+@media screen and (max-width: 300px) {
+
+    .nav-items li{
+        padding: 4px 
+            
+        }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
 

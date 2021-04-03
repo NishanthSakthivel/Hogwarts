@@ -10,7 +10,7 @@ function App() {
     <>
   
     <Home />
-    {/* <Chars /> */}
+    <Chars /> 
     </>
   );
 }

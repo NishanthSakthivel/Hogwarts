@@ -1,14 +1,17 @@
-import React, { Component } from "react"; 
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React  from "react"; 
 import './Home.css'
+import homeimage from '../images/home_img.jpg'
 
-class Home extends Component {
+
+class Home extends React.Component {
   render() {
     return (
         <>
         <div className="home-container">
-            <img src="home_img.jpg" alt="homeimage" />
+            <img src={homeimage} alt="home image" />
             <nav className="navbar">
-                <div className="navbar-nav">
+                
                     <ul className="nav-items">
                         <li>Home</li>
                         <li>Characters</li>
@@ -16,7 +19,7 @@ class Home extends Component {
                         <li>Facts</li>
                         <li>HelloWorld</li>
                     </ul>
-                </div>
+                
             </nav>
         </div>
         </>
