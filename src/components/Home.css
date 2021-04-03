@@ -1,0 +1,21 @@
+.home-container img{
+    width: 100%;
+    
+}
+.navbar{
+    display: flex;
+    border: 2px solid cyan;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-items li{
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 14px 16px;
+    
+}
+
