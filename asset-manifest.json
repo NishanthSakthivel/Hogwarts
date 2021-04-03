@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Hogwarts/static/css/main.ab6faaba.chunk.css",
-    "main.js": "/Hogwarts/static/js/main.6401fe7f.chunk.js",
-    "main.js.map": "/Hogwarts/static/js/main.6401fe7f.chunk.js.map",
+    "main.css": "/Hogwarts/static/css/main.4bb137cb.chunk.css",
+    "main.js": "/Hogwarts/static/js/main.b6946450.chunk.js",
+    "main.js.map": "/Hogwarts/static/js/main.b6946450.chunk.js.map",
     "runtime-main.js": "/Hogwarts/static/js/runtime-main.43dbe96f.js",
     "runtime-main.js.map": "/Hogwarts/static/js/runtime-main.43dbe96f.js.map",
     "static/js/2.62048df5.chunk.js": "/Hogwarts/static/js/2.62048df5.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.4dff8977.chunk.js": "/Hogwarts/static/js/3.4dff8977.chunk.js",
     "static/js/3.4dff8977.chunk.js.map": "/Hogwarts/static/js/3.4dff8977.chunk.js.map",
     "index.html": "/Hogwarts/index.html",
-    "static/css/main.ab6faaba.chunk.css.map": "/Hogwarts/static/css/main.ab6faaba.chunk.css.map",
+    "static/css/main.4bb137cb.chunk.css.map": "/Hogwarts/static/css/main.4bb137cb.chunk.css.map",
     "static/js/2.62048df5.chunk.js.LICENSE.txt": "/Hogwarts/static/js/2.62048df5.chunk.js.LICENSE.txt",
-    "static/media/Chars.css": "/Hogwarts/static/media/HARRY.84cd2148.woff"
+    "static/media/Chars.css": "/Hogwarts/static/media/HARRY.84cd2148.woff",
+    "static/media/home_img.b5d67d5d.jpg": "/Hogwarts/static/media/home_img.b5d67d5d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.43dbe96f.js",
     "static/js/2.62048df5.chunk.js",
-    "static/css/main.ab6faaba.chunk.css",
-    "static/js/main.6401fe7f.chunk.js"
+    "static/css/main.4bb137cb.chunk.css",
+    "static/js/main.b6946450.chunk.js"
   ]
 }
