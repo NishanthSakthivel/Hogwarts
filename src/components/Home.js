@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React  from "react"; 
+import homeimage from '../images/home_img.jpg';
 import './Home.css'
-import homeimage from '../images/home_img.jpg'
 
 
 class Home extends React.Component {

@@ -1,9 +1,10 @@
-import React, { Component } from "react"; 
+import React, { Component } from "react";  
 import {BrowserRouter as Router,Link} from 'react-router-dom'
+import './Characters.css'
 
 
 
-class Chars extends Component {
+class Characters extends Component {
     constructor(){
         super();
         const char1={
@@ -45,9 +46,9 @@ class Chars extends Component {
   render() {
     return (
      <>
-     <main className="main">
-         <div className="header">
-             <div className="title">
+     <div className="character-main">
+         <div className="header" id="header">
+             <div className="title" id="title">
                 <h1> Characters</h1>
              </div>
          </div>
@@ -58,8 +59,8 @@ class Chars extends Component {
                          return(<Link className="cardlink" to={"#"}>
                              <div className="charcard">
                                 <div className="card-img">
-                                    <img src={chars.charCardImg} alt="img">
-                                    </img>
+                                    <img src={chars.charCardImg} alt="img" />
+                                    
                                 <div className="card-description">
                                     <h2>{chars.charName}</h2>
                                     <p>"I don't go looking for trouble. Trouble usually finds me."</p>
@@ -72,7 +73,7 @@ class Chars extends Component {
              
              
          </div>
-     </main>
+     </div>
 
        
      </>
@@ -80,4 +81,4 @@ class Chars extends Component {
   }
 }
 
-export default Chars;
+export default Characters;

@@ -1,0 +1,105 @@
+ @font-face {
+    font-family:'BluuNext Titling';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BluuNext\ Titling'), url('../fonts/BluuNext\ Titling.woff') format('woff');
+}
+ @font-face {
+    font-family: 'Sofia Pro Regular Az';
+    font-style: Regular;
+    font-weight: normal;
+    src: local('Sofia Pro Regular Az'), url('../fonts/Sofia\ Pro\ Regular\ Az.woff') format('woff');
+}  
+*{
+    margin: 0px;
+  
+}
+.character-info-main{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    padding: 0px;
+   
+   
+    
+}
+.charimg-container{
+    width: 400px;
+    /* border: 2px solid maroon; */
+    height: auto;
+    margin-right: 15px;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.charimg-container img{
+    width: 100%;
+    height: auto;
+    
+
+}
+.chardesc-container{
+    /* border: 2px solid green; */
+    width: 450px;
+    height: auto;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.char-info{
+    /* border: 2px solid royalblue; */
+    width: 400px;
+    height: auto;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cname{
+   /*  background-color:  rgb(4,25,94); */
+    text-align: left;
+    padding: 5px;
+    font-family: 'BluuNext Titling';
+    /* border: 2px solid white; */
+
+}
+.cname h1{
+    color: black;
+    font-family: 'BluuNext Titling';
+    
+    /* text-shadow: 2px 2px #ff0000; */
+}
+.cdesc{
+    margin-top: 15px;
+    font-family: 'Sofia Pro Regular Az';
+    text-align:left;
+    font-size:20px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px;
+
+}
+
+.char-info-heading{
+    text-align: center;
+    padding: 5px;
+
+}
+.char-info-table{
+    margin: 16px 10px;
+}
+.char-info-table table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.char-info-table th, td {
+    padding: 5px;
+    text-align: left;
+  }

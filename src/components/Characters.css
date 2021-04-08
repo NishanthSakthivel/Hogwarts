@@ -3,19 +3,21 @@
     font-style: normal;
     font-weight: normal;
     src: local('Harry Potter Regular'), url('../fonts/HARRY.woff') format('woff');
-    }
+}
 *{
     margin: 0px;
 }
-.header{
+#header{
     background-color: rgb(4, 25, 94);
     height: 5em;
     border: 5px solid rgb(60,127,172);
     display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
 }
-.title{
+#title{
     color: rgb(255, 255, 255);
     font-size: x-large;
     font-family: 'Harry Potter Regular';
